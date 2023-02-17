@@ -1,0 +1,52 @@
+[
+  {
+    "ref": "6371c3fa-eec9-4f03-a118-b77518b9e96d",
+    "keyword": "d850f074df214cc382823189d15e46d7",
+    "answer": "ole",
+    "options": {},
+    "from": "573024679206",
+    "refSerialize": "db60e57ff41fe340261e070cda1f080b"
+  },
+  {
+    "ref": "2809ddb3-6065-4cb4-abff-c688b070644e",
+    "keyword": "db60e57ff41fe340261e070cda1f080b",
+    "answer": "empecemos",
+    "options": {},
+    "from": "573024679206",
+    "refSerialize": "4f07d0dcd8293f75d4ee4f52c11bb518"
+  },
+  {
+    "ref": "ans_367c6025-49c2-4897-98cb-d087fd0d8458",
+    "keyword": "key_97315e01-2cc2-47f0-bb64-05994d99544e",
+    "answer": "bienvenido al sistemas de asistencia virtual\nel breve te enviamos la informacion",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3b6fd78351b954e019a31511e9bdda14",
+    "from": "573024679206"
+  },
+  {
+    "ref": "ans_29ae1351-d008-4b74-b2ca-d0697b856ca7",
+    "keyword": "ans_367c6025-49c2-4897-98cb-d087fd0d8458",
+    "answer": "me regalas tu correo :",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "62e3a52603895816a7a82a9f841ad86a",
+    "from": "573024679206"
+  }
+]
