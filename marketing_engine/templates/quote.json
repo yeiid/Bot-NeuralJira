@@ -1,0 +1,58 @@
+{
+    "name": "Inspirational Quote",
+    "description": "Template para citas motivacionales",
+    "size": [1080, 1080],
+    "background": "#0F172A",
+    "effects": {
+        "shadow": true,
+        "gradient": true,
+        "gradient_colors": ["#8B5CF6", "#3B82F6"]
+    },
+    "shapes": [
+        {
+            "shape_type": "rectangle",
+            "coordinates": [[100, 200], [980, 600]],
+            "fill_color": "rgba(30, 41, 59, 0.8)",
+            "outline_color": "#8B5CF6",
+            "width": 4
+        },
+        {
+            "shape_type": "circle",
+            "coordinates": [[540, 100], [580, 140]],
+            "fill_color": "#F59E0B",
+            "outline_color": "#F59E0B",
+            "width": 0
+        }
+    ],
+    "text_elements": [
+        {
+            "text": """,
+            "position": [150, 250],
+            "font_size": 120,
+            "color": "#8B5CF6",
+            "font_style": "bold"
+        },
+        {
+            "text": "{quote_text}",
+            "position": [150, 320],
+            "font_size": 50,
+            "color": "#F8FAFC",
+            "font_style": "regular",
+            "max_width": 800
+        },
+        {
+            "text": "{author_name}",
+            "position": [150, 550],
+            "font_size": 40,
+            "color": "#60A5FA",
+            "font_style": "bold"
+        },
+        {
+            "text": "{brand_name}",
+            "position": [540, 950],
+            "font_size": 35,
+            "color": "#CBD5E1",
+            "font_style": "light"
+        }
+    ]
+}

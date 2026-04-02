@@ -1,0 +1,101 @@
+{
+    "name": "VS Comparison",
+    "description": "Template para comparaciones de dos opciones",
+    "size": [1080, 1080],
+    "background": "#0F172A",
+    "effects": {
+        "shadow": true,
+        "gradient": true,
+        "gradient_colors": ["#0F172A", "#1E293B"]
+    },
+    "shapes": [
+        {
+            "shape_type": "rectangle",
+            "coordinates": [[50, 50], [1030, 150]],
+            "fill_color": "#1E293B",
+            "outline_color": "#8B5CF6",
+            "width": 3
+        },
+        {
+            "shape_type": "line",
+            "coordinates": [[50, 150], [1030, 150]],
+            "outline_color": "#8B5CF6",
+            "width": 5
+        },
+        {
+            "shape_type": "rectangle",
+            "coordinates": [[50, 200], [515, 900]],
+            "fill_color": "rgba(59, 130, 246, 0.1)",
+            "outline_color": "#3B82F6",
+            "width": 3
+        },
+        {
+            "shape_type": "rectangle",
+            "coordinates": [[565, 200], [1030, 900]],
+            "fill_color": "rgba(239, 68, 68, 0.1)",
+            "outline_color": "#EF4444",
+            "width": 3
+        },
+        {
+            "shape_type": "circle",
+            "coordinates": [[540, 350], [580, 390]],
+            "fill_color": "#F59E0B",
+            "outline_color": "#F59E0B",
+            "width": 0
+        }
+    ],
+    "text_elements": [
+        {
+            "text": "{brand_name}",
+            "position": [50, 70],
+            "font_size": 80,
+            "color": "#8B5CF6",
+            "font_style": "title"
+        },
+        {
+            "text": "{title}",
+            "position": [50, 950],
+            "font_size": 45,
+            "color": "#F8FAFC",
+            "font_style": "bold",
+            "max_width": 980
+        },
+        {
+            "text": "{option1_title}",
+            "position": [282, 250],
+            "font_size": 50,
+            "color": "#3B82F6",
+            "font_style": "bold"
+        },
+        {
+            "text": "{option1_description}",
+            "position": [70, 320],
+            "font_size": 35,
+            "color": "#CBD5E1",
+            "font_style": "regular",
+            "max_width": 425
+        },
+        {
+            "text": "{option2_title}",
+            "position": [797, 250],
+            "font_size": 50,
+            "color": "#EF4444",
+            "font_style": "bold"
+        },
+        {
+            "text": "{option2_description}",
+            "position": [585, 320],
+            "font_size": 35,
+            "color": "#CBD5E1",
+            "font_style": "regular",
+            "max_width": 425
+        },
+        {
+            "text": "VS",
+            "position": [540, 370],
+            "font_size": 40,
+            "color": "#F59E0B",
+            "font_style": "bold"
+        }
+    ]
+}

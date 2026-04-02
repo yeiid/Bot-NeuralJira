@@ -1,0 +1,137 @@
+{
+    "name": "Tutorial Step-by-Step",
+    "description": "Template para tutoriales con pasos numerados",
+    "size": [1080, 1080],
+    "background": "#0F172A",
+    "effects": {
+        "shadow": true,
+        "gradient": true,
+        "gradient_colors": ["#0F172A", "#1E293B"]
+    },
+    "shapes": [
+        {
+            "shape_type": "rectangle",
+            "coordinates": [[50, 50], [1030, 150]],
+            "fill_color": "#1E293B",
+            "outline_color": "#3B82F6",
+            "width": 3
+        },
+        {
+            "shape_type": "line",
+            "coordinates": [[50, 150], [1030, 150]],
+            "outline_color": "#3B82F6",
+            "width": 5
+        }
+    ],
+    "text_elements": [
+        {
+            "text": "{brand_name}",
+            "position": [50, 70],
+            "font_size": 80,
+            "color": "#8B5CF6",
+            "font_style": "title"
+        },
+        {
+            "text": "{title}",
+            "position": [50, 200],
+            "font_size": 50,
+            "color": "#F8FAFC",
+            "font_style": "bold",
+            "max_width": 980
+        },
+        {
+            "text": "{step1_title}",
+            "position": [70, 350],
+            "font_size": 40,
+            "color": "#3B82F6",
+            "font_style": "bold"
+        },
+        {
+            "text": "{step1_description}",
+            "position": [250, 350],
+            "font_size": 40,
+            "color": "#CBD5E1",
+            "font_style": "regular",
+            "max_width": 780
+        },
+        {
+            "text": "{step2_title}",
+            "position": [70, 510],
+            "font_size": 40,
+            "color": "#10B981",
+            "font_style": "bold"
+        },
+        {
+            "text": "{step2_description}",
+            "position": [250, 510],
+            "font_size": 40,
+            "color": "#CBD5E1",
+            "font_style": "regular",
+            "max_width": 780
+        },
+        {
+            "text": "{step3_title}",
+            "position": [70, 670],
+            "font_size": 40,
+            "color": "#F59E0B",
+            "font_style": "bold"
+        },
+        {
+            "text": "{step3_description}",
+            "position": [250, 670],
+            "font_size": 40,
+            "color": "#CBD5E1",
+            "font_style": "regular",
+            "max_width": 780
+        },
+        {
+            "text": "{step4_title}",
+            "position": [70, 830],
+            "font_size": 40,
+            "color": "#EF4444",
+            "font_style": "bold"
+        },
+        {
+            "text": "{step4_description}",
+            "position": [250, 830],
+            "font_size": 40,
+            "color": "#CBD5E1",
+            "font_style": "regular",
+            "max_width": 780
+        },
+        {
+            "text": "{call_to_action}",
+            "position": [50, 990],
+            "font_size": 40,
+            "color": "#60A5FA",
+            "font_style": "regular",
+            "max_width": 980
+        }
+    ],
+    "step_boxes": [
+        {
+            "coordinates": [[50, 330], [1030, 450]],
+            "fill_color": "#1E293B",
+            "outline_color": "#3B82F6",
+            "width": 3
+        },
+        {
+            "coordinates": [[50, 490], [1030, 610]],
+            "fill_color": "#1E293B",
+            "outline_color": "#10B981",
+            "width": 3
+        },
+        {
+            "coordinates": [[50, 650], [1030, 770]],
+            "fill_color": "#1E293B",
+            "outline_color": "#F59E0B",
+            "width": 3
+        },
+        {
+            "coordinates": [[50, 810], [1030, 930]],
+            "fill_color": "#1E293B",
+            "outline_color": "#EF4444",
+            "width": 3
+        }
+    ]
+}
