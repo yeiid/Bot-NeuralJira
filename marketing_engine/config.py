@@ -1,12 +1,16 @@
 import os
 from dataclasses import dataclass
 from typing import Dict, Tuple
+from dotenv import load_dotenv
+
+# Cargar variables de entorno
+load_dotenv()
 
 @dataclass
 class FacebookConfig:
-    page_id: str = "112603561747066"
+    page_id: str = os.getenv("FACEBOOK_PAGE_ID", "112603561747066")
     api_version: str = "v19.0"
-    access_token: str = "EAALgGkdkmTYBRDC7frW79hyrMqeklG8f40TMTAZBC92dkdZBORFu1w90OWFWuOYOPs82w0VtfDbPJicDWvFPQCtB2DZC3Y8W53g8X4sfF92JnIxO2vNZCTw3FCjKSF7dOd4lhpc3eFdFvEZAMdvoZB0CchZBrOLEBdy3SxVlZAKCCM6OsGuOh5ZCyZALizXO2VgDgQBokZD"
+    access_token: str = os.getenv("FACEBOOK_ACCESS_TOKEN", "")
 
 @dataclass
 class ImageConfig:

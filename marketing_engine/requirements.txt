@@ -1,3 +1,8 @@
+# NeuralJira Marketing Engine — Dependencias mínimas
 Pillow>=10.0.0
 requests>=2.31.0
 python-dotenv>=1.0.0
+feedparser>=6.0.0
+anthropic>=0.25.0
+streamlit>=1.35.0
+apscheduler>=3.10.0
