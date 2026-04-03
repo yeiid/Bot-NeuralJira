@@ -142,7 +142,9 @@ class ProfessionalImageGenerator:
             for line in lines:
                 draw.text((element.position[0], element.position[1] + y_offset), 
                          line, fill=element.color, font=font)
-                y_offset += font.size + 5
+                bbox = font.getbbox(line)
+                line_height = bbox[3] - bbox[1]
+                y_offset += line_height + 5
         else:
             draw.text(element.position, element.text, fill=element.color, font=font)
     
@@ -204,8 +206,10 @@ class ProfessionalImageGenerator:
             draw.line([(0, i), (width, i)], fill=(r, g, b))
         
         # Combinar con imagen original
-        img = Image.alpha_composite(gradient.convert("RGBA"), img.convert("RGBA"))
-        return img.convert("RGB")
+        img_rgba = img.convert('RGBA')
+        gradient = gradient.convert('RGBA')
+        gradient.paste(img_rgba, (0, 0), img_rgba)
+        return gradient.convert('RGB')
     
     def _hex_to_rgb(self, hex_color: str) -> Tuple[int, int, int]:
         """Convierte color hex a RGB"""

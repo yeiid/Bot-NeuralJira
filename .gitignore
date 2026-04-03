@@ -1,0 +1,16 @@
+# Ambientes Virtuales
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración y Secretos
+.env
+
+# Archivos Locales
+marketing_engine/output/
+*.log

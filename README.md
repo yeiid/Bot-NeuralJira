@@ -6,11 +6,11 @@ Este repositorio contiene los scripts de automatización de marketing y publicac
 
 1. **Integración Actual:** OpenClaw corre como un servicio silencioso (Daemon/Gateway) en un entorno de pruebas Linux (VPS Sandbox). Está enganchado a Telegram para recibir comandos, pero opera asíncronamente mediante `HEARTBEAT.md` y tareas programadas (*Cron-jobs*).
 2. **LLMs Conectados (Cerebro del Agente):**
-   - **Primario:** `google/gemini-3.1-pro-preview` (200k Contexto).
+   - **Primario (Marketing Content):** `gemini-2.5-flash` mediante la API y SDK de Google Generative AI para redacción y análisis estructurado.
    - **Pool de Respaldo (En TOOLS.md):** Groq (Llama 3.1 8B/70B), Cerebras, DeepSeek, SambaNova y OpenRouter (Acceso a Claude y GPT).
 3. **Flujo de Automatización:**
    - Cero intervención humana. El agente ejecuta directamente los scripts de Python en la carpeta `marketing_engine/`.
-   - Se alimenta de llamadas a APIs REST (Groq para redacción, Facebook Graph API para publicación).
+   - Se alimenta de llamadas al motor de Gemini (Google) para redacción y estructuración JSON, y Facebook Graph API para publicación.
 
 ## Generación de Imágenes (Estrategia Híbrida)
 
